@@ -126,6 +126,7 @@ header .logo {
   padding: 15px 0;
   color: var(--main-color);
   font-size: 1.8em;
+  font-weight: bold;
   text-transform: uppercase;
 }
 header ul {
