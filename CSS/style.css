@@ -295,14 +295,15 @@ header ul li:hover a {
 }
 /*  */
 .new::after {
-  content: "NEW";
-  color: #f0cb11;
-  position: relative;
-  bottom: 82px;
-  left: 300px;
-  font-weight: 600;
-  border: 1px solid #000;
-  padding: 0 3px;
+      content: "NEW";
+    color: #a900ff;
+    position: relative;
+    bottom: 82px;
+    left: 300px;
+    font-weight: 600;
+    border: 5px solid #a900ff;
+    border-radius: 8px;
+    padding: 0 3px;
 }
 .projects .pro-content .card:hover img {
   opacity: 0.9;
