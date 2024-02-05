@@ -298,8 +298,8 @@ header ul li:hover a {
       content: "NEW";
     color: #a900ff;
     position: relative;
-    bottom: 82px;
-    left: 300px;
+    bottom: 5.25em;
+    left: 18.30em;
     font-weight: 600;
     border: 5px solid #a900ff;
     border-radius: 8px;
