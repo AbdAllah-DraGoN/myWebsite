@@ -108,6 +108,9 @@ p {
 .card:hover {
   transform: scale(1.1);
 }
+.real {
+  box-shadow: 0px 0px 0.9em 0px #f0cb11;
+}
 /* End Components */
 
 /* Start Header */
@@ -223,6 +226,23 @@ header ul li:hover a {
   flex-wrap: wrap;
   align-items: center;
 }
+.main-section .container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-around;
+}
+.main-section img {
+  width: 13.5em;
+  height: 13.5em;
+  border-radius: 50%;
+  margin: 0 1em 1em;
+}
+@media (min-width: 500px) {
+  .main-section .container div {
+    margin-right: 3em;
+  }
+}
 
 .main-section h3 {
   font-size: 1.4em;
@@ -263,7 +283,19 @@ header ul li:hover a {
 .main-section ul i {
   font-size: 1.7em;
   color: white;
-  margin-right: 30px;
+  margin: 0 0.8em;
+}
+@media (max-width: 500px) {
+  .main-section .container {
+    flex-direction: column;
+  }
+  .main-section .container div {
+    text-align: center;
+    margin-top: 2em;
+  }
+  .main-section ul {
+    justify-content: center;
+  }
 }
 /* End Main Section */
 
@@ -295,15 +327,14 @@ header ul li:hover a {
 }
 /*  */
 .new::after {
-      content: "NEW";
-    color: #a900ff;
-    position: relative;
-    bottom: 5.25em;
-    left: 18.30em;
-    font-weight: 600;
-    border: 5px solid #a900ff;
-    border-radius: 8px;
-    padding: 0 3px;
+  content: "NEW";
+  color: #f0cb11;
+  position: relative;
+  bottom: 82px;
+  left: 300px;
+  font-weight: 600;
+  border: 1px solid #000;
+  padding: 0 3px;
 }
 .projects .pro-content .card:hover img {
   opacity: 0.9;
