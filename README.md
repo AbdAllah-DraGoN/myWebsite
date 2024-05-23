@@ -5,7 +5,6 @@
 
 ## Features
 - **Portfolio**: Display of my work and projects.
-- **About Me**: A section that provides information about my background and skills.
 - **Contact**: Easy ways to get in touch with me.
 
 ## Technologies Used
