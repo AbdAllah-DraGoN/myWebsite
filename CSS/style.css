@@ -375,6 +375,9 @@ header ul li:hover a {
   font-size: 1.25em;
   color: #000;
 }
+.contact .content .card h3:hover {
+  transform: scale(1.1);
+}
 .contact .content p {
   font-size: 1.5em;
   font-weight: 600;
